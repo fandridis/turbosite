@@ -18,6 +18,11 @@
       "~/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "src/libs/body-scroll-lock/bodyScrollLock.js"
+  ],
   "exclude": ["node_modules"]
 }
